@@ -15,7 +15,7 @@ members.forEach(member => {
     if(element) {
         element.style.cursor = "pointer";
         element.addEventListener("click",() => {
-            window.location.href = member.page;
+            window.location.href =　"html/" + member.page;
         });
     }
 });
