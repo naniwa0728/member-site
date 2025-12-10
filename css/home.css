@@ -181,15 +181,15 @@ header h1{
 
 @media (max-width:480px) {
     .members {
-        grid-template-columns: 1fr;
-        gap : 14px;
+        grid-template-columns: repeat(2,1fr);
+        gap : 12px;
     }
 
-    .member {
-        padding: 14px;
+    .member .name {
+        font-size: 15px;
     }
 
     .member img {
-        max-height: 200px;
+        max-height: 160px;
     }
 }
