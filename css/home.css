@@ -185,11 +185,11 @@ header h1{
         gap : 12px;
     }
 
-    .member .name {
-        font-size: 15px;
+    .member {
+        padding: 12px;
     }
 
-    .member img {
-        max-height: 160px;
+    .name {
+        font-size: 15px;
     }
 }
